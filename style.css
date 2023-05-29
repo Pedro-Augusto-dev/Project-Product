@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+#header {
+    display: grid;
+    grid-auto-flow:column ;
+    grid-auto-columns: 32vw;
+    background-color: rgb(48, 48, 48);
+    color: rgb(239,235,228);
+}
+#titulo {
+    padding: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    text-align: left;
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+
+    padding: 10px;
+
+    text-align: left;
+}
+.inputpd {
+  display: grid;
+  margin-bottom: 10px;
+  
+}
+button {
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+    border: 0;
+
+} 
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+
+.conteudo{
+    margin-top: 15px;
+
+}
+table{
+    border-collapse: collapse;
+    width :93%;
+    margin: auto;
+    border: #ccc;
+
+}
+table th{
+    background-color: #303030;
+    padding: 1px;
+    color: aliceblue;
+}
+table td{
+    padding:1px;
+
+}
+table td img {
+    width: 25px;
+}
